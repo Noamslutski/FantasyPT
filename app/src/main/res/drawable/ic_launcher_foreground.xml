@@ -4,37 +4,17 @@
     android:height="108dp"
     android:viewportWidth="108"
     android:viewportHeight="108">
-    <!-- Modern F1 Steering Wheel Silhouette -->
+    <!-- Chess king silhouette -->
     <path
-        android:fillColor="#E0E0E0"
-        android:pathData="M30,40 L78,40 C82,40 84,42 84,46 L84,62 C84,66 82,68 78,68 L30,68 C26,68 24,66 24,62 L24,46 C24,42 26,40 30,40 Z" />
-
-    <!-- Grips (Carbon Fiber/Dark Texture look) -->
+        android:fillColor="#FFFFFF"
+        android:pathData="M52,20 h4 v6 h5 v4 h-5 v5 h-4 v-5 h-5 v-4 h5 z" />
     <path
-        android:fillColor="#1A1A1A"
-        android:pathData="M22,44 L28,44 L28,64 L22,64 C20,64 19,63 19,61 L19,47 C19,45 20,44 22,44 Z" />
+        android:fillColor="#FFFFFF"
+        android:pathData="M40,40 C40,46 44,49 48,51 L46,64 L62,64 L60,51 C64,49 68,46 68,40 C68,34 62,32 54,32 C46,32 40,34 40,40 Z" />
     <path
-        android:fillColor="#1A1A1A"
-        android:pathData="M80,44 L86,44 L86,64 L80,64 C78,64 77,63 77,61 L77,47 C77,45 78,44 80,44 Z" />
-
-    <!-- Center LCD Display (Modern Green Tech look) -->
+        android:fillColor="#FFFFFF"
+        android:pathData="M38,70 L70,70 L74,86 L34,86 Z" />
     <path
-        android:fillColor="#000000"
-        android:pathData="M42,44 L66,44 L66,54 L42,54 Z" />
-    <path
-        android:fillColor="#00E676"
-        android:pathData="M44,46 L64,46 L64,52 L44,52 Z" />
-
-    <!-- Dial / Rotary Knobs -->
-    <path
-        android:fillColor="#FFD700"
-        android:pathData="M54,60 m-4,0 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0" />
-
-    <!-- Action Buttons -->
-    <path
-        android:fillColor="#F44336"
-        android:pathData="M36,58 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0" />
-    <path
-        android:fillColor="#2196F3"
-        android:pathData="M72,58 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0" />
+        android:fillColor="#FFFFFF"
+        android:pathData="M28,88 h52 v8 h-52 z" />
 </vector>

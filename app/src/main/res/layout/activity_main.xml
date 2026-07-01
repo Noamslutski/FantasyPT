@@ -7,6 +7,7 @@
     android:background="@color/fpt_bg">
 
     <ProgressBar
+        android:id="@+id/status_spinner"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:indeterminateTint="@color/fpt_accent" />
@@ -16,6 +17,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
+        android:paddingHorizontal="32dp"
+        android:gravity="center"
         android:textColor="@color/fpt_text_muted"
         android:textSize="14sp"
         android:text="@string/signing_in" />

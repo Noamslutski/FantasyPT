@@ -43,6 +43,11 @@ public class FirebaseManager {
         auth.signInAnonymously().addOnSuccessListener(result -> {
             String newUid = result.getUser() != null ? result.getUser().getUid() : null;
             cb.onSignedIn(newUid);
+        }).addOnFailureListener(e -> {
+            // Most likely cause: Anonymous sign-in isn't enabled yet under Firebase console ->
+            // Authentication -> Sign-in method. Report failure rather than hanging silently.
+            android.util.Log.e("FirebaseManager", "Anonymous sign-in failed: " + e.getMessage());
+            cb.onSignedIn(null);
         });
     }
 

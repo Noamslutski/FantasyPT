@@ -21,6 +21,7 @@
     <string name="pack_opened_title">You got 3 new cards!</string>
     <string name="continue_label">Continue</string>
     <string name="signing_in">Signing in…</string>
+    <string name="firebase_not_configured">Firebase isn\'t set up yet.\nAdd app/google-services.json from the fantasychess-ad0c0 Firebase console, then rebuild.</string>
     <string name="choose_a_card">Choose a card for this slot</string>
     <string name="no_owned_cards">You don\'t own any spare cards yet — open a pack first.</string>
 </resources>
