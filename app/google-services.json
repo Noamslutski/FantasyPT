@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "919163405343",
+    "firebase_url": "https://fantasychess-ad0c0-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "fantasychess-ad0c0",
+    "storage_bucket": "fantasychess-ad0c0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:919163405343:android:32c7bd0536ac1bddfd812a",
+        "android_client_info": {
+          "package_name": "com.noamsl.fantasypt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "919163405343-2gcljadcf4epnh1ior8a51arergumm0q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWIMSQMnAWMurgllsljbOq4kP4yFUp-Kw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "919163405343-2gcljadcf4epnh1ior8a51arergumm0q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

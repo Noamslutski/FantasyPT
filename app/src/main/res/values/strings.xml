@@ -22,6 +22,7 @@
     <string name="continue_label">Continue</string>
     <string name="signing_in">Signing in…</string>
     <string name="firebase_not_configured">Firebase isn\'t set up yet.\nAdd app/google-services.json from the fantasychess-ad0c0 Firebase console, then rebuild.</string>
+    <string name="sign_in_failed">Couldn\'t sign in.\nEnable Anonymous sign-in under Firebase console → Authentication → Sign-in method, then reopen the app.</string>
     <string name="choose_a_card">Choose a card for this slot</string>
     <string name="no_owned_cards">You don\'t own any spare cards yet — open a pack first.</string>
 </resources>

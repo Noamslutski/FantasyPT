@@ -31,7 +31,14 @@ public class MainActivity extends AppCompatActivity {
         }
 
         FirebaseManager.ensureSignedIn(uid -> {
-            if (uid == null) { routeToSquad(); return; }
+            if (uid == null) {
+                // Sign-in failed (most likely Anonymous sign-in isn't enabled yet under
+                // Firebase console -> Authentication -> Sign-in method). Show it instead of
+                // bouncing to SquadActivity, which would just bounce right back here.
+                findViewById(R.id.status_spinner).setVisibility(android.view.View.GONE);
+                ((TextView) findViewById(R.id.status_text)).setText(R.string.sign_in_failed);
+                return;
+            }
             FirebaseManager.userRef(uid).get().addOnSuccessListener(snap -> {
                 UserProfile profile = snap.getValue(UserProfile.class);
                 if (profile == null || !profile.starterPackClaimed) {
