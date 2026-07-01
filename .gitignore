@@ -1,0 +1,15 @@
+*.iml
+.gradle
+/local.properties
+/.idea
+.DS_Store
+**/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Firebase service account key used by the scraper — never commit credentials.
+scraper/serviceAccountKey.json
+scraper/__pycache__/
+scraper/*.pyc

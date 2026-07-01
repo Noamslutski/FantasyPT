@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">fantasyPT</string>
+
+    <string name="club_name">הפועל פתח תקווה</string>
+    <string name="your_squad">Your squad</string>
+    <string name="total_points">Total points</string>
+    <string name="add_player">Add player</string>
+    <string name="open_pack">Open pack</string>
+    <string name="free_packs_waiting">%1$d free pack(s) waiting</string>
+    <string name="new_pack_every_monday">New pack every Monday</string>
+    <string name="this_weeks_games">this week\'s games</string>
+    <string name="no_games_this_week">No games played this week yet.</string>
+    <string name="rating_format">rating %d</string>
+    <string name="tier_common">Common</string>
+    <string name="tier_rare">Rare</string>
+    <string name="tier_legend">Legend</string>
+    <string name="result_win">win</string>
+    <string name="result_draw">draw</string>
+    <string name="result_loss">loss</string>
+    <string name="opening_pack">Opening pack…</string>
+    <string name="pack_opened_title">You got 3 new cards!</string>
+    <string name="continue_label">Continue</string>
+    <string name="signing_in">Signing in…</string>
+    <string name="choose_a_card">Choose a card for this slot</string>
+    <string name="no_owned_cards">You don\'t own any spare cards yet — open a pack first.</string>
+</resources>

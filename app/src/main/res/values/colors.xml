@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- fpt_ = fantasyPT design-system colors, light mode -->
+    <color name="fpt_bg">#F1EFE8</color>
+    <color name="fpt_surface">#FFFFFF</color>
+    <color name="fpt_text">#2C2C2A</color>
+    <color name="fpt_text_muted">#5F5E5A</color>
+    <color name="fpt_border">#D3D1C7</color>
+
+    <color name="fpt_accent">#378ADD</color>
+    <color name="fpt_accent_dark">#185FA5</color>
+    <color name="fpt_on_accent">#FFFFFF</color>
+
+    <!-- Card rarity tiers -->
+    <color name="fpt_common">#5DCAA5</color>
+    <color name="fpt_common_bg">#E1F5EE</color>
+    <color name="fpt_common_text">#085041</color>
+
+    <color name="fpt_rare">#378ADD</color>
+    <color name="fpt_rare_bg">#E6F1FB</color>
+    <color name="fpt_rare_text">#0C447C</color>
+
+    <color name="fpt_legend">#7F77DD</color>
+    <color name="fpt_legend_bg">#EEEDFE</color>
+    <color name="fpt_legend_text">#3C3489</color>
+
+    <color name="fpt_success">#639922</color>
+    <color name="fpt_success_bg">#EAF3DE</color>
+    <color name="fpt_warning">#BA7517</color>
+    <color name="fpt_warning_bg">#FAEEDA</color>
+    <color name="fpt_danger">#A32D2D</color>
+    <color name="fpt_danger_bg">#FCEBEB</color>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#12151A"
+        android:pathData="M0,0h108v108h-108z" />
+    <path
+        android:fillColor="#1B2129"
+        android:pathData="M0,0 L108,108 L108,0 Z" />
+
+    <!-- Subtle Checkered Flag pattern at the bottom corner -->
+    <path
+        android:fillColor="#1AFFFFFF"
+        android:pathData="M80,80 h10 v10 h-10 z M90,90 h10 v10 h-10 z M80,100 h10 v10 h-10 z M100,80 h10 v10 h-10 z" />
+</vector>
